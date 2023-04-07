@@ -2,9 +2,8 @@ package user
 
 import "context"
 
-type(
-	sUser struct{}
-)
+type sUser struct{}
+
 
 func New() *sUser{
 	return &sUser{}
